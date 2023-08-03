@@ -1,0 +1,100 @@
+.wrapper {
+  width: 1240px;
+  margin: 0 auto;
+}
+
+.shortcut {
+  height: 52px;
+  background: #000;
+}
+
+.shortcut .wrapper {
+  display: flex;
+  justify-content: flex-end;
+  height: 52px;
+}
+
+.shortcut .wrapper ul {
+  display: flex;
+
+}
+
+.shortcut .wrapper ul li {
+  height: 52px;
+  line-height: 52px;
+}
+
+.shortcut .wrapper ul li a {
+  color: #fff;
+  border-right: 1px solid #666;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.shortcut .wrapper ul li a i {
+  margin-right: 5px;
+}
+
+
+.shortcut .wrapper .icon-phone {
+  color: #fff;
+}
+
+.nav .search {
+  width: 222px;
+  /* background: #000; */
+  display: flex;
+}
+
+.nav .left {
+  height: 36px;
+  width: 127px;
+  display: flex;
+  position: relative;
+}
+
+.nav .left .iconfont {
+  line-height: 36px;
+  position: absolute;
+  margin-left: 3px;
+}
+
+.nav .left input {
+  width: 115px;
+  height: 36px;
+  flex: 1;
+  border: 0;
+  padding-left: 23px;
+  border-bottom: 1px solid #ccc;
+}
+
+.nav .left input:focus {
+  outline: none;
+  border: 0;
+  box-shadow: 0 0 2px 2px #ccc;
+}
+
+.nav .right {
+  position: relative;
+  display: flex;
+}
+
+.nav .right .icon-gouwuchekong {
+  line-height: 36px;
+  font-size: 24px;
+  margin-left: 15px;
+}
+
+.nav .right span {
+  display: inline-block;
+
+  background: #e26237;
+  padding: 0 3px;
+  border-radius: 30px;
+  position: absolute;
+  top: -3px;
+  left: 30px;
+  font-size: 13px;
+  color: #fff;
+  text-align: right;
+}
